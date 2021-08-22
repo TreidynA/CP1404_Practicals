@@ -19,7 +19,7 @@ while choice != "Q":
         # Remove the "pass" statement when you are done. It's a placeholder.
         fahrenheit = float(input("Fahrenheit: "))
         celsius = 5 / 9 * (fahrenheit - 32)
-        print("Result: {:.2f} F".format(celsius))
+        print("Result: {:.2f} C".format(celsius))
     else:
         print("Invalid option")
     print(MENU)
